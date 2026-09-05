@@ -23,7 +23,7 @@ Double-click:
 ```cmd
 START_THE_IDENTITY.bat
 ```
-*This automatically launches both the backend and frontend servers and opens http://localhost:5173/ in your browser.*
+*This automatically launches both the backend and frontend servers and opens http://localhost:5173/ in your browser. *
 
 ---
 
