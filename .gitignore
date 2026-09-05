@@ -1,0 +1,67 @@
+# ==============================================================================
+# THE IDENTITY - Git Ignore Configuration
+# ==============================================================================
+
+# 1. SECURITY: CRITICAL - NEVER COMMIT SECRETS OR KEYS
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jwt
+*.keystore
+id_rsa
+id_ed25519
+test_api_key.py
+test_*.py
+
+# 2. Python Environments & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+backend_venv/
+ENV/
+*.egg-info/
+.eggs/
+
+# 3. Node & Frontend Build Artifacts
+node_modules/
+dist/
+dist-ssr/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# 4. Heavy Media, Scratch Assets & Redundant Folders (Exclude from Git)
+*.mp4
+*.mkv
+*.mov
+*.avi
+FACE ID/
+Option I want/
+Screen Recording*/
+small-thumbnail*
+*.webp
+!frontend/src/assets/*
+
+# 5. IDE & Operating System Artifacts
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 6. Logs & Diagnostics
+*.log
+logs/
+.system_generated/
+scratch/
